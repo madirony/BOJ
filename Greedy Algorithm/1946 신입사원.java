@@ -8,8 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = br.readLine();
-        int testcase = Integer.parseInt(str);
+        int testcase = Integer.parseInt(br.readLine());
         for(int i=0; i<testcase;i++) {
             int people = Integer.parseInt(br.readLine());
             int pass=0;
