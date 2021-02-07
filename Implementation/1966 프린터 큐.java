@@ -30,8 +30,6 @@ public class Main {
             Arrays.fill(array,false);
             while(queue.isEmpty()!=true){
                 if(queue.peek()==max) {
-                    //System.out.println(queue.peek());
-                    //System.out.println("\n"+queueindex+"qb "+ index + ": index"+"\n");
                     array[queueindex] = true;
                     queue.remove();
                     count++;
